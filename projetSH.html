@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="projetSH.css">
+    <link rel="stylesheet" href="projetSH.css" />
 </head>
 <body>
     <nav class="navbar">
@@ -119,6 +119,7 @@
                     </span>
         </div>
     </div>
+
 <section class="lesDescréption">
 <div class="divDescreption">
         <p class="titles" >Description<span class="toggle-symbol">+</span><br>
@@ -203,6 +204,81 @@
         </div>
     </div>
 </section>
+
+
+
+
+
+<div class="form-container">
+    <h1 class="phraseCommande">Commandez nos produits pour prendre soin de votre santé !</h1>
+    <form id="orderForm">
+      <div class="form-group">
+          <label for="fullname">Nom et Prénom :</label>
+          <input type="text" id="fullname" name="fullname" required>
+          <span id="fullnameError" class="error-message"></span>
+      </div>
+  
+      <div class="form-group">
+          <label for="address">Adresse :</label>
+          <input type="text" id="address" name="address" required>
+          <span id="addressError" class="error-message"></span>
+      </div>
+  
+      <div class="form-group">
+          <label for="postalCode">Code Postal :</label>
+          <input type="text" id="postalCode" name="postalCode" required>
+          <span id="postalCodeError" class="error-message"></span> <!-- Error message for postal code -->
+      </div>
+  
+      <div class="form-group">
+          <label for="phone">Numéro de Téléphone :</label>
+          <input type="tel" id="phone" name="phone" required>
+          <span id="phoneError" class="error-message"></span>
+      </div>
+  
+      <div class="form-group">
+          <label for="quantity">Quantité désirée :</label>
+          <input type="number" id="quantity" name="quantity" required min="1">
+          <span id="quantityError" class="error-message"></span>
+      </div>
+  
+      <div class="form-group">
+        <label for="total">Total de la commande (en DH) :</label>
+        <output id="total" name="total">0</output>
+        <span id="totalError" class="error-message"></span>
+      </div>
+  
+      <button  class="finaliserCommande" type="submit">Finaliser la commande</button>
+      
+      <!-- Success message displayed after form submission -->
+      <div id="successMessage" class="success-message" style="display: none;">Merci pour votre confiance !<br>
+         Votre commande a été finalisée avec succès.</div>
+  </form>
+  
+</div>
+<footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <p class="copyright-text">
+            &copy; 2024 <a href="#">Vendora</a>. Tous droits réservés.
+          </p>
+        </div>
+  
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <ul class="social-icons">
+            <li><a href="https://www.facebook.com/vendora" class="facebook"><img src="Design sans titre.png" alt="Facebook" /> Vendora</a></li>
+            <li><a href="https://www.instagram.com/vendora" class="instagram"><img src="Design sans titre (1).png" alt="Instagram" /> Vendora</a></li>
+            <li><a href="https://twitter.com/vendora" class="twitter"><img src="Design sans titre (3).png" alt="Twitter" /> Vendora</a></li>
+            <li><a href="https://www.linkedin.com/company/vendora" class="linkedin"><img src="Design sans titre.png" alt="LinkedIn" /> Vendora</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  
+
 </body>
 <script src="./projetSH.js"></script>
 </html>

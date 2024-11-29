@@ -226,8 +226,9 @@
     margin-top: 20px;
     margin-left: 270px;
   }
-.toggle-symbol{
+  .toggle-symbol{
     font-weight: 700;
+    font-size: 27px;
     margin-left: 50px;
     display:flex;
     flex-direction: column;
@@ -235,13 +236,11 @@
     margin-top: -20px;
 }
 
-  
 .lesDescréption{
     margin-top: -420px;
 
 }
-  
-  .titles {
+.titles {
     height: 5px;
     font-weight: bold;
     cursor: pointer;
@@ -251,7 +250,8 @@
   .divDescreption:hover {
     background-color: rgb(186, 207, 197);
   }
-  .show {
+.show {
+    display: none;
     margin-top: 10px;
     font-size: 14px;
     color: #0a0a0a;
@@ -310,3 +310,151 @@ border-bottom: 1px;
     height: 300px;
     margin-bottom: 20px;
 }*/
+/* Center the title */
+.form-container{
+    background-color:rgb(202, 206, 204);
+    margin-top: 20%;
+    margin-left: 25%;
+    width: 600px;
+    height: 600px;
+    border: 10px solid rgb(194, 204, 200);;
+    border-radius: 10px;
+    
+}
+/* Style pour le message de succès */
+.success-message {
+    display: none; /* Masqué par défaut */
+    font-size: 20px; /* Taille du texte */
+    color: rgb(236, 255, 254); /* Couleur du texte */
+    background-color: #000000; /* Couleur de fond (vert succès) */
+    border: 2px solid rgb(236, 255, 254); /* Bordure */
+    border-radius: 10px; /* Coins arrondis */
+    padding: 20px; /* Espacement interne */
+    text-align: center; /* Alignement centré */
+    margin-top: 18px; /* Espacement en haut */
+    margin-left: 25%;
+    width: 50%; /* Largeur pour s’aligner avec le formulaire */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Police */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Ombre pour effet 3D */
+}
+
+.phraseCommande{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    margin-top: 0px;
+}
+
+/* Style for form labels */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center; /* Center the label text */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+/* Style for inputs and output */
+input[type="text"],
+input[type="tel"],
+input[type="number"],
+output {
+    width: 85%;
+    padding: 10px;
+    margin-left: 40px; 
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box; 
+    display: block;
+    margin: 0 auto; /* Center the input/output horizontally */
+}
+
+/* Adjust margin of input fields */
+input[type="text"],
+input[type="tel"],
+input[type="number"] {
+    margin-bottom: 10px; 
+}
+
+/* Style for output */
+output {
+    font-size: 25px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Error message style */
+.error-message {
+    color: red;
+    font-size: 12px;
+}
+
+/* Button styling */
+.finaliserCommande{
+    padding: 10px 20px;
+    background-color: #45a049;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 85%;
+    margin-left: 40px;
+    display: block;
+    margin: 0 auto; /* Center the button horizontally */
+}
+
+.finaliserCommande:hover {
+    background-color:#0b07f5; 
+}
+
+
+.site-footer {
+    background-color: #6e908d;
+    padding: 20px 0;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 135px;
+  }
+  
+  .site-footer .copyright-text {
+    margin: 0;
+    color: #fff;
+  }
+  
+  .social-icons {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+  }
+  
+  .social-icons li {
+    display: inline-block;
+  }
+  
+  .social-icons a {
+    color: #c5f7f7;
+    font-weight: 300;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-icons a img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 10px;
+    transition: filter 0.3s ease; /* Transition smooth pour le changement de couleur */
+  }
+  .social-icons a:hover {
+    color: #3366cc; /* Changer la couleur du texte au survol */
+  }
+ 
+
+  
