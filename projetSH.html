@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="projetSH.css">
+</head>
+<body>
+    <nav class="navbar">
+      <div class="logoTitre">
+      <img class="logo" src="VENDORA (3).png" >
+      <figcaption>VENDORA</figcaption>
+      </div>
+       <ul class="NavbarMenu">
+        <li class="Accueil">Accueil</li>
+        <li class="Contact">Contact</li>
+        <li class="Produit">Produit</li>
+       </ul> 
+    </nav>
+    <section class="lesTitres">
+        <div class="gallery">
+            <!-- Image principale -->
+            <img id="mainImage" img class="ForceCheveux" src="CA_CHEVEUX_Vue1.webp" alt="Image principale">
+    
+            <!-- Miniatures -->
+            <div class="thumbnails">
+                <img class="thumbnail" src="Force-Cheveux.png" alt="Image 1" onclick="changeImage('Force-Cheveux.png')">
+                <img class="thumbnail" src="HairPhoto2.jpg" alt="Image 2" onclick="changeImage('HairPhoto2.jpg')">
+                <img class="thumbnail" src="hairhomme.png" alt="Image 3" onclick="changeImage('hairhomme.png')">
+                <img class="thumbnail" src="CA_CHEVEUX_Vue1.webp" alt="Image 3" onclick="changeImage('CA_CHEVEUX_Vue1.webp')">
+            </div>
+        </div>
+    
+        <div class="titre">
+        <h1 class="titleP">Force Cheveux : Anti-chute</h1>
+        <div class="médicale1">
+        <h1 class="nomber1" >N1° En prescription médicale</h1>
+        </div>
+        <div class="info">
+            <img src="adresse.jpeg" alt="fabrique" class="fabrique">
+            <h2>Produit fabriqué en France</h2>
+            <img src="bio.jpeg" alt="Bio" class="bio">
+            <h2>Certifié bio</h2>
+        </div>
+        <div class="container">
+            <div class="buttons">
+                <button class="btn" data-price="150 DH">150 Gélules</button>
+                <button class="btn" data-price="30 DH">50 Pièces</button>
+            </div>
+            <div class="price-display">
+                <p id="price"></p> <!-- Initialement vide ou un espace réservé -->
+            </div>
+        </div>
+        <figcaption class="caption1">Complément Alimentaire "Force Cheveux" :Soutenez vos cheveux<br> de l'intérieur pour une force incomparable.</figcaption>
+        <p class="description">Force Cheveux: Le complément alimentaire conçu pour renforcer vos cheveux de l'intérieur.
+                               Grâce à sa formule riche en nutriments essentiels, il aide à stimuler la croissance, prévenir 
+                               la chute et redonner éclat et vitalité à votre chevelure. Offrez à vos cheveux le soin qu'ils 
+                               méritent pour une beauté durable et une force naturelle.</p> 
+        </div>
+     </section>
+     <div class="galleryProduit">
+        <!-- Miniatures -->
+        <div class="lesProduits">
+            <h2>Produits fréquemment achetés ensemble</h2>
+
+            <span class="produitCase">
+                <img class="lesProduit" src="Force-Cheveux.png" alt="Imagecheuveux" >
+                <p ><span class="nameP">Complément Alimentaire "Force Cheveux" : Votre Allié pour des Cheveux Forts et en Bonne Santé</span><br>
+                    Aide à maintenir des cheveux brillants et en bonne santé.<br>
+                    Fabriqué en France, formule enrichie 100% naturelle.<br>
+                    Flacon de 50 gélules pour une cure d’un 1 mois.<br>
+                    Complément alimentaire ÉQUILIBRE PEAU, pour une peau plus saine<br>
+                    <button class="buttonP">Force Cheveux</button>
+                </p>
+            </span>
+
+            <span class="produitCase">
+            <img class="lesProduit" src="Memoire-Concentration-Complement-Alimentaire-Plantes.png"alt="Imagecheuveux" >
+            <p ><span class="nameP">Complément alimentaire CONCENTRATION & MÉMOIRE, pour stimuler la fonction cognitive</span><br>
+                Mémoire | Concentration | Fonction cognitive<br>
+                100% plantes<br>
+                Fabriqué en France<br>
+                Flacon 60 gélules (cure 1 mois)<br>
+                <button class="buttonP">Concentration et mémoire</button>
+            </p>
+            </span>
+
+
+            <span class="produitCase">
+                <img class="lesProduit" src="Arthroveda-Baume-Muscles-Articulations-Arthrose (2).png" alt="Imagemegné" >
+                <p ><span class="nameP">Baume anti-inflammatoire Arthroveda</span><br>
+                    Favorise une relaxation profonde et un sommeil réparateur.<br>
+                    Application pratique et ciblée grâce à son format roll-on.<br>
+                    Formulé avec des ingrédients naturels pour apaiser l'esprit.<br>
+                    Votre allié bien-être pour des nuits paisibles.<br>
+                    <button class="buttonP">Baume ARTHROVEDA</button>
+                </p>
+           </span>
+            <span class="produitCase">
+                <img class="lesProduit"  src="Peau-Beaut.png"  alt="Imagesuperaliement" >
+                <p><span class="nameP">Complément alimentaire ÉQUILIBRE PEAU, pour une peau plus saine</span><br>
+                    Santé de la peau | Acné | Tâches et rougeurs | Perte d'élasticité<br>
+                    100% plantes<br>
+                    Fabriqué en France<br>
+                    Flacon 60 gélules (cure 1 mois)<br>
+                    <button class="buttonP">Equilibre Peau</button>
+                </p>
+                </span>
+                <span class="produitCase">
+                    <img class="lesProduit" src="Migspray-Prevention-Migraine-Naturveda.webp" alt="Migspray-Prevention-Migraine-Naturveda.webp" >
+                    <p><span class="nameP">MIG SPRAY traitement des migraines</span><br>
+                        Apaise les douleurs migraineuses en quelques instants.<br>
+                        Formule innovante pour un soulagement ciblé et efficace.<br>
+                        Application en spray pratique, facile à utiliser à tout moment.<br>
+                        Idéal pour réduire les tensions et retrouver votre confort.<br>
+                        <button class="buttonP">MIG SPRAY</button>
+                    </p>
+                    </span>
+        </div>
+    </div>
+<section class="lesDescréption">
+<div class="divDescreption">
+        <p class="titles" >Description<span class="toggle-symbol">+</span><br>
+        <div class="show" >Force Cheveux :Votre allié pour des cheveux et des ongles forts et éclatants
+            Grâce à une synergie d'actifs essentiels, Force Cheveux redonne force, vitalité et brillance à vos cheveux tout en maintenant la santé et 
+            l'élégance de vos ongles. Sa formule innovante enrichie du complexe HAIR ACTIV’+ FORTIFY (Vitamines B5, B6, B8, B9 et Zinc) renforce la fibre 
+            capillaire de la racine jusqu’aux pointes, apportant souplesse et éclat à votre chevelure.<br>Efficacité prouvée :98 % des utilisateurs constatent une amélioration significative de l’état général de leurs cheveux après 3 mois d’utilisation.*<br>
+            Étude clinique menée sur 40 participants sur une période de 6 mois.
+        </div>
+    </div>
+    <div class="divDescreption">
+        <p class="titles" >Propriétés et Bienfaits<span class="toggle-symbol">+</span></p>
+        <div class="show">
+            <p>Le cheveu est principalement constitué de kératine, protéine qui lui confère élasticité, résistance et brillance. Elle est synthétisée à partir des acides aminés soufrés,
+                 la cystine et la méthionine, sous l’action du zinc et des vitamines du groupe B. La kératine est également un constituant majeur de l’ongle.<br>
+                 Élu comme étant « Le produit préféré des Français »*, Force Cheveux contient des acides aminés soufrés (cystine et méthionine), des vitamines et
+                  des minéraux rigoureusement sélectionnés par les experts des laboratoires Arkopharma. Une formule complète pour vos ongles et vos cheveux ! 
+            <br>Ses Bienfaits :
+            <ul>
+                <li>Le zinc contribue à la synthèse normale des protéines, comme la kératine, ainsi qu'à conserver de beaux ongles. </li>
+                <li>ALa vitamine B8 contribue au maintien de cheveux en bonne santé, souples, brillants et résistants. </li>
+                <li>La vitamine B9 contribue à la synthèse normale des acides aminés.</li>
+                <li>La vitamine B6 contribue à la synthèse normale de la cystéine, qui est elle-même utilisée pour fabriquer de la cystine.</li>
+                <li>La vitamine B6 contribue également au métabolisme normal des protéines. </li>
+            </ul>
+            Avec Force Cheveux, retrouvez des cheveux brillants, sains et résistants, ainsi que des ongles forts et élégants, pour sublimer votre beauté au quotidien.
+        </div>
+    </div>
+    <div class="divDescreption">
+        <p class="titles" >Composition<span class="toggle-symbol">+</span></p>
+        <div class="show">
+            <p>Détail des ingrédients <br>
+               L-cystine - Agent de charge : cellulose - L-méthionine - Vitamine B5 - Oxyde de zinc - Antiagglomérant : stéarate de magnésium - Vitamine B6 - Vitamine D3 - Vitamine B8 (Biotine) - Vitamine B9. Enveloppe : gélatine d'origine bovine.<br>
+               <span>Information nutritionnelle moyenne</span></p>
+            <table  class="tableComposition" cellpadding="5" cellspacing="0">
+                <tr>
+                    <th></th> <!-- Colonne vide pour l'alignement -->
+                    <th>Pour 2 gélules</th>
+                    <th>% VNR*</th>
+                </tr>
+                <tr>
+                    <td>Vitamine B5</td>
+                    <td>18 mg</td>
+                    <td>300%</td>
+                </tr>
+                <tr>
+                    <td>Vitamine B6</td>
+                    <td>2 mg</td>
+                    <td>147%</td>
+                </tr>
+                <tr>
+                    <td>Vitamine B9</td>
+                    <td>200 µg</td>
+                    <td>100%</td>
+                </tr>
+                <tr>
+                    <td>Vitamine D5</td>
+                    <td>5 µg</td>
+                    <td>100%</td>
+                </tr>
+                <tr>
+                    <td>Vitamine B8 (biotine)</td>
+                    <td>450 µg</td>
+                    <td>900%</td>
+                </tr>
+                <tr>
+                    <td>Zinc</td>
+                    <td>15 mg</td>
+                    <td>150%</td>
+                </tr>
+                <tr>
+                    <td>L-Cystine</td>
+                    <td>300 mg</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>L-Méthionine</td>
+                    <td>100 mg</td>
+                    <td>147%</td>
+                </tr>
+            </table>            
+        </div>
+    </div>
+</section>
+</body>
+<script src="./projetSH.js"></script>
+</html>

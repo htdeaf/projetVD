@@ -1,0 +1,312 @@
+
+.navbar{
+    background-color:rgb(186, 207, 197);
+    height: 85px;
+
+
+}
+.navbar img{
+    width: 85px;
+    border-radius: 50%;
+    border: 10px solid white;
+}
+.logoTitre{
+    margin-left: 3px;
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+    font-style: italic;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.NavbarMenu{
+        margin-left: 70%;
+        margin-top: -5%;
+        list-style-type: none;
+        display:flex;
+        gap:35px;
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 600;
+}
+.ForceCheveux{
+    width: 370px;
+    max-height: 370px;
+    margin-top: 70px;
+    margin-left: 213px;
+    object-fit: cover;
+}
+.thumbnails {
+    display: flex;
+    gap: 10px;
+    margin-left: 213px;
+    margin-top: 10px;
+    
+
+}
+.thumbnail {
+    display:flex;
+    width: 100px;
+    cursor: pointer;
+    object-fit: cover;
+    border:2px solid transparent;
+    transition: border 0.3s;
+
+
+}
+.thumbnail:hover{
+    border: 2px solid #007BFF;
+}
+.lesTitres{
+    margin-right: 50px;
+    margin-top: 50px;
+    display:flex;
+    gap:30px;
+}
+
+.titleP{
+    font-size: 25px;
+    font-weight:900;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.médicale1{
+    font-weight: 900;
+    list-style-type: none;
+    color: olivedrab;
+
+}
+.nomber1{
+    font-size: 35px;
+    font-weight: 200px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     
+}
+
+.caption1{
+     font-size: 20px;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-style:inherit;
+     max-width: 1000px;
+
+}
+.description{
+    max-width: 555px;
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style:inherit;
+
+}
+.produitCase{
+    display:flex;
+    align-items: center; 
+    gap: 5px; 
+    font-size: 10px; 
+    font-weight: 200;
+    color: #272525; 
+}
+.peau{
+    color:  rgb(99, 145, 8);
+    font-size: 10px;
+    font-weight: 500;
+}
+.nameP{
+    color:  rgb(99, 145, 8);
+    font-size: 10px;
+    font-weight: 500;
+}
+.buttonP{
+    display:flex;
+    flex-direction: column;
+    margin-left: 300px;
+    margin-top: -40px;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    justify-content: center;
+    width: 130px;
+    height: 50px;
+    cursor:pointer;
+    border: none;
+    background-color: #45a049;
+    color: white;
+    border-radius: 5px;
+
+
+}
+.buttonP:hover {
+    background-color: #0a0a0a;
+}
+.galleryProduit{
+    display:flex;
+    flex-direction: column; 
+    gap: 10px;
+    margin-top:-140px;
+    margin-left:700px ;
+    width: 550px;
+    border: rgb(148, 186, 71) solid 1px;
+}
+/*.lesProduits{
+    display:flex;
+    flex-direction: column; 
+    gap: 10px;
+    margin-top:700px;
+    margin-right: 300px;
+    border: #0a0a0a solid ;
+    
+}*/
+
+.lesProduit {
+    display:flex;
+    width: 100px;
+    cursor: pointer;
+    object-fit: cover;
+    border:2px solid transparent;
+    transition: border 0.3s;
+}
+
+
+
+
+
+
+.info {
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+    font-size: 16px; 
+    color: #272525; 
+}
+
+.bio {
+    width: 40px; 
+    border-radius: 50%; 
+}
+.fabrique {
+    width: 40px; 
+    border-radius: 50%; 
+}
+.prix{
+    display: flex; 
+    align-items: center; 
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px; 
+    color: #197428;
+
+}
+
+/*.show {
+    display: none;
+    font-size: 14px;
+    color: #555;
+  }
+  .divDescreption{
+    background-color: #f61f1f;
+    width: 200px;
+  }
+  
+  .titles {
+    color: #333;
+    width: 320px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    gap:30px;
+  }            attension!   faut */
+  .divDescreption {
+    margin: 10px 0;
+    padding: 10px;
+    cursor:pointer;
+    border: none;
+    background-color:rgb(148, 186, 71);
+    color: rgb(12, 12, 12);
+    border-radius: 5px;
+    width:320px;
+    margin-top: 20px;
+    margin-left: 270px;
+  }
+.toggle-symbol{
+    font-weight: 700;
+    margin-left: 50px;
+    display:flex;
+    flex-direction: column;
+    margin-left: 300px;
+    margin-top: -20px;
+}
+
+  
+.lesDescréption{
+    margin-top: -420px;
+
+}
+  
+  .titles {
+    height: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(17, 17, 17);
+
+  }
+  .divDescreption:hover {
+    background-color: rgb(186, 207, 197);
+  }
+  .show {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #0a0a0a;
+    display: none;
+
+  }
+
+
+.tableComposition{
+      margin:40px;
+      border-collapse: collapse;
+}
+.tableComposition th{
+background-color: rgb(215, 218, 219);
+color: rgb(10, 10, 10);
+text-align: center;
+padding: 2px;
+font-size: 14px;
+border-bottom: 1px;
+}
+.tableComposition tr{
+    background-color: rgb(245, 250, 252);
+}
+.container {
+    text-align: center;
+
+}
+.buttons {
+    margin-bottom: 20px;
+}
+.btn {
+    font-size: 16px;
+    cursor:pointer;
+    border: none;
+    background-color: #45a049;
+    color: white;
+    border-radius: 5px;
+}
+.btn:hover {
+    background-color: #0a0a0a;
+}
+.price-display {
+    font-size: 18px;
+    color: #333;
+}
+#price {
+    font-weight: bold;
+}
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*.main-image {
+    width: 400px;
+    height: 300px;
+    margin-bottom: 20px;
+}*/
